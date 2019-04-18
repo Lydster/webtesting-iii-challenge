@@ -19,5 +19,7 @@ describe("<Display/>", () => {
 
   it("displays closed is closed prop is true", () => {
     const { getByText } = render(<Display />);
+    const closed = getByText(/locked/i);
+    expect(closed).toBeTruthy();
   });
 });

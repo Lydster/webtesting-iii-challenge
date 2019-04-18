@@ -23,6 +23,7 @@ Array [
       className="toggle-btn"
       disabled={true}
       onClick={[Function]}
+      title="lockButton"
     >
       Lock Gate
     </button>
@@ -30,6 +31,7 @@ Array [
       className="toggle-btn"
       disabled={false}
       onClick={[Function]}
+      title="gateButton"
     >
       Close Gate
     </button>
